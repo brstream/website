@@ -110,6 +110,9 @@ docpadConfig = {
 			bourbon: true
 		grunt:
       		gruntTasks: ["uglify"]
+      	ghpages:
+      		deployRemote: 'target'
+      		deployBranch: 'master'
 
 	# =================================
 	# DocPad Events
